@@ -334,7 +334,6 @@ El código de [sli.do](https://www.sli.do/) para el proyecto 1 :
 
 **Solicitud del usuario: Crea una web en la que puedas introducir una frase del usuario y que mediante el cifrado cesar devuelva el mismo mensaje encriptado**
 
-
 *EncryptedChat es una web desarrollada pensando en las personas que quieren mentener sus conversaviones en privado, mediante un código que pueda cifrar y decifrar sus mensajes.*
 
 A nivel de experiencia de usuario, realicé los siguientes pasos:
@@ -343,27 +342,29 @@ A nivel de experiencia de usuario, realicé los siguientes pasos:
 
 2. Análisis: En esta etapa entendí que la necesidad de las personas es su deseo de mantener solo unas específicas conversaciones por privado, más no todo su chat.
 
-3. Diseño: En esta etapa idee una primera versión de lo que creía que el usuario necesitaba
-![image1](assets/image/image1)
+3. Diseño: En esta etapa idee una primera versión de lo que creía que el usuario necesitaba.
 
-Al presentarla a diferentes personas y recibir feadbacks, identifiqué los siguientes modelos.
-// Añadir imagenes//
-![image2](assets/image/image2)
-![image3](assets/image/image3)
-![image4](assets/image/image4)
-![image5](assets/image/image5)
+![image1](assets/image/image1.jpeg)
 
-4. Prototipo: En esta etapa materialicé la solución que más se acercaba a la solución del usuario.
+Al presentarla a diferentes personas y recibir feedbacks, identifiqué los siguientes modelos.
+
+![image2](assets/image/image2.jpeg) ![image3](assets/image/image3.jpeg) ![image4](assets/image/image4.jpeg) ![image5](assets/image/image5.jpeg)
+
+4. Prototipo: En esta etapa materialicé la solución que más se acercaba a la del usuario.
+
 // Añadir imagen de la web//
 
-** Entonces ¿quiénes son los principales usuarios de producto?** 
+**Entonces ¿quiénes son los principales usuarios de producto?** 
+
 Como se mencionó líneas arriba, los principales usuarios del producto son aquellas personas que desean mantener conversaciones privadas específicas; para organizar algún evento sin que el agasajado se entere, para mantener una cita privada, o que sus hijos/padres no entiendan sus mensajes.
 
-** Y ¿cuáles son los objetivos de estos usuarios en relación con el producto? **
+**Y ¿cuáles son los objetivos de estos usuarios en relación con el producto?**
+
 Los objetivos de los usuarios de EncrytedChat son mantener conversaciones mediante mensajes que solo ellos puedan ver, Mantener conversaciones que solo ellos puedan entender. 
 
 
-** ¿cómo crees que el producto que estás creando les está resolviendo sus problemas?
+**¿cómo crees que el producto que estás creando les está resolviendo sus problemas?**
+
 El producto que he desarrollado resuelve el problema de privacidad, implementando un sistema de mensajes codificados que solo los usuarios que mantienen la conversación puedan entender.
 
 A nivel de interfaz, desarrollé el siguiente código:

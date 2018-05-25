@@ -344,11 +344,11 @@ A nivel de experiencia de usuario, realicé los siguientes pasos:
 
 3. Diseño: En esta etapa idee una primera versión de lo que creía que el usuario necesitaba.
 
-![image1](assets/image/image1.jpeg)
+![image1](assets/image/image1.png)
 
 Al presentarla a diferentes personas y recibir feedbacks, identifiqué los siguientes modelos.
 
-![image2](assets/image/image2.jpeg) ![image3](assets/image/image3.jpeg) ![image4](assets/image/image4.jpeg) ![image5](assets/image/image5.jpeg)
+![image2](assets/image/image2.png) ![image3](assets/image/image3.png) ![image4](assets/image/image4.png) ![image5](assets/image/image5.png) ![image7]
 
 4. Prototipo: En esta etapa materialicé la solución que más se acercaba a la del usuario.
 

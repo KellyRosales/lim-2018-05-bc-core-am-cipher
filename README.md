@@ -344,10 +344,14 @@ A nivel de experiencia de usuario, realicé los siguientes pasos:
 2. Análisis: En esta etapa entendí que la necesidad de las personas es su deseo de mantener solo unas específicas conversaciones por privado, más no todo su chat.
 
 3. Diseño: En esta etapa idee una primera versión de lo que creía que el usuario necesitaba
-//Añadir imagen//
+![image1](assets/image/image1)
 
-Al presentarla a diferentes personas y recibir feadbacks, pasé por los siguientes modelos.
+Al presentarla a diferentes personas y recibir feadbacks, identifiqué los siguientes modelos.
 // Añadir imagenes//
+![image2](assets/image/image2)
+![image3](assets/image/image3)
+![image4](assets/image/image4)
+![image5](assets/image/image5)
 
 4. Prototipo: En esta etapa materialicé la solución que más se acercaba a la solución del usuario.
 // Añadir imagen de la web//

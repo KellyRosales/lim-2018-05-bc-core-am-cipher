@@ -326,8 +326,6 @@ El código de [sli.do](https://www.sli.do/) para el proyecto 1 :
 
 
 
-
-
 # CIFRADO CESAR PROJECT
 
 ## DEFINICIÓN DEL PRODUCTO

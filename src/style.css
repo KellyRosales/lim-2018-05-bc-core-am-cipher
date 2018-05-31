@@ -1,14 +1,82 @@
 body {
-    background-image: url("http://mujerchic.com/wp-content/uploads/2014/12/Hanami-Kyoto.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position-x: 40%;
-}
-
-header, main, footer { 
-    color:white ;
+    background:url("http://mujerchic.com/wp-content/uploads/2014/12/Hanami-Kyoto.jpg");
+    color: white;
+    text-align: center;
+ }
+ header{
     position: relative;
-    left: 600px;
-}
-
-
+    background:rgba(155, 6, 6, 0.945);
+    height: 70px;
+    font-size: 180%;
+ }
+ 
+ #name1{
+    position: relative;
+    font-size: 150%;
+    color:rgba(155, 6, 6, 0.945);
+    background: white ;
+    top: 20px; 
+ }
+ #textArea1{
+    position:relative;
+    top:30px;
+    width: 40%;
+    height: 50px;
+ }
+ #name2{
+    position: relative;
+    font-size: 150%;
+    color:rgba(155, 6, 6, 0.945);
+    background: white ;
+    top: 80px;  
+ }
+ #textArea2{
+    position:relative;
+    font-size: 100%;
+    width: 40%;
+    height:50px;
+    top:100px;
+    
+ }
+ #buttonCipher{
+    position: relative;
+    background:rgba(155, 6, 6, 0.945);
+    color: white;
+    width: 80px;
+    height: 20px;
+    top: 150px; 
+    right: 10%;    
+ }
+ #buttonDecipher{
+    position: relative;
+    background:rgba(155, 6, 6, 0.945);
+    color: white;
+    width: 80px;
+    height: 20px;
+    top: 131px; 
+    left: 10%; 
+ }
+ #name3{
+    position: relative;
+    font-size: 150%;
+    color:rgba(155, 6, 6, 0.945);
+    background: white ;
+    top: 170px;
+ }
+ #textArea3{
+    position: relative;
+    font-size: 100%;
+    width: 30%;
+    height: 70%;
+    top: 180px; 
+    width: 40%;
+    height:50px ;   
+ }
+ 
+ footer{
+    position: relative;
+    background: rgb(236, 236, 7);
+    color: black;
+    height: 20px;
+    top: 200px;    
+ }

@@ -35,10 +35,10 @@ window.cipher ={
       let sentenceD=string.charCodeAt(i);
 
       if( sentenceD>=65 && sentenceD<=90){      
-        completeD=completeD+String.fromCharCode((sentenceD-65-positionD)%26+65);
+        completeD=completeD+String.fromCharCode(((sentenceD%26+64)-65-positionD)%26+65);
 
       }else if(sentenceD>=97 && sentenceD<=122 ) {
-        completeD=completeD+String.fromCharCode((sentenceD-97-positionD)%26+97);
+        completeD=completeD+String.fromCharCode(((sentenceD%26+64)-97-positionD)%26+97);
 
       }else if(sentenceD== 32){
         completeD += ' ';

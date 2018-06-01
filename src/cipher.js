@@ -16,9 +16,9 @@ window.cipher ={
         /*para letras en minúsculas, usamos fromChartcode para convertir el codigo ASCII en letra */
         complete=complete +String.fromCharCode((sentence-97+position)%26+97);
 
-      }else if(string[i]=''){
+      }else if(sentence== 32){
        /*opción de insertar un espacio */
-        complete='';
+        complete += ' ';
       }else {
         complete=alert('Ingrese solo letras');
           /*previniendo errores*/
@@ -35,13 +35,13 @@ window.cipher ={
       let sentenceD=string.charCodeAt(i);
 
       if( sentenceD>=65 && sentenceD<=90){      
-        completeD=completeD+String.fromCharCode((sentenceD-65-positionD)%26*2+65);
+        completeD=completeD+String.fromCharCode((sentenceD-65-positionD)%26+65);
 
       }else if(sentenceD>=97 && sentenceD<=122 ) {
-        completeD=completeD+String.fromCharCode((sentenceD-97-positionD)%26*2+97);
+        completeD=completeD+String.fromCharCode((sentenceD-97-positionD)%26+97);
 
-      }else if(string[i]=''){
-        completeD='';
+      }else if(sentenceD== 32){
+        completeD += ' ';
 
       }else {
         completeD=alert('Ingrese solo letras');

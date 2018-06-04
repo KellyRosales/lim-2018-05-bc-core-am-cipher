@@ -17,9 +17,13 @@
 
 Al presentarla a diferentes personas y recibir feedbacks, identifiqué los siguientes modelos.
 
-![image2](assets/image/image2.png) ![image3](assets/image/image3.png) ![image4](assets/image/image4.png) ![image5](assets/image/image5.png) ![image7]
+![image2](assets/image/image2.png) 
+![image3](assets/image/image3.png) 
+![image4](assets/image/image4.png)
+![image5](assets/image/image5.png) 
 
 4. Prototipo: luego de constantes feedbacks, materialicé la solución que más se acercaba a la del usuario.
+
 ![web](assets/image/web.png)
 
 

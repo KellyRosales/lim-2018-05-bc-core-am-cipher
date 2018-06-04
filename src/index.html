@@ -3,51 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content= "EncryptedChat es una página que sirve para mantener una conversación secreta en grupo sin que algun usuario exterior ingrese">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EncryptedChat</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <header> 
-        <h1>
-          EncryptedChat
-        </h1>
-      </header>
-      <main>
+    <header> 
+      <h1>
+        EncryptedChat
+      </h1>
+    </header>
+    <main>
       <section>
-          <div>
-            <label id="name1">Inserte lo que desea cifrar o decifrar</label>
-          </div>
-          <div>
-            <input id="textArea1" type="text">  
-          </div>
-       </section> 
-       <section>  
-          <div>
-            <label id="name2">Inserte su código de cifrado o decifrado </label>
-          </div>
-          <div>
-            <input id="textArea2" type="text">
-          </div>
-          <div>
-            <input id="buttonCipher" type="button" value="Cifrar">
-          </div>
-          <div>
-            <input id="buttonDecipher" type="button" value="Decifrar">
-          </div>
-        </section>
-        <section>
-            <div>
-              <label id="name3">Texto Cifrado o decifrado</label>
-            </div>
-            <div>
-              <textarea id="textArea3" name="message2" placeholder="Aquí recibirá su texto cifrado o decifrado"></textarea>
-            </div>
-        </section>
+        <div>
+          <label id="name1">Inserte lo que desea cifrar o decifrar</label>
+        </div>
+        <div>
+          <input id="textArea1" type="text">  
+        </div>
+      </section> 
+      <section>  
+        <div>
+          <label id="name2">Inserte su código de cifrado o decifrado </label>
+        </div>
+        <div>
+          <input id="textArea2" type="text">
+        </div>
+        <div>
+          <input id="buttonCipher" type="button" value="Cifrar">
+        </div>
+        <div>
+          <input id="buttonDecipher" type="button" value="Decifrar">
+        </div>
+      </section>
+      <section>
+        <div>
+          <label id="name3">Texto Cifrado o decifrado</label>
+        </div>
+        <div>
+          <textarea id="textArea3" name="message2" placeholder="Aquí recibirá su texto cifrado o decifrado"></textarea>
+        </div>
+      </section>
       </main>
-       <footer> 
-         <p>Hecho con amor en Laboratoria  </p>
-       </footer>
-       <script src="cipher.js"></script>
+      <footer> 
+        <p>Hecho con amor en Laboratoria  </p>
+      </footer>
+      <script src="cipher.js"></script>
       <script src="index.js"></script>
     </body>
   </html>

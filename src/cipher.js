@@ -6,24 +6,23 @@ window.cipher ={
     for (let i=0; i<string.length ; i++){
       let position= parseInt(offset);
       let sentence=string.charCodeAt(i); 
-      /*usamos charCodeAt para obtener el codigo ASCII de las letras insertads*/
+        //usamos charCodeAt para obtener el codigo ASCII de las letras insertads y fromChartcode para convertir el codigo en letras
 
-      if( sentence>=65 && sentence<=90){
-        /*para letras en mayúscula,  usamos fromChartcode para convertir el codigo ASCII en letra */      
-        complete=complete + String.fromCharCode((sentence-65+position)%26+65);
-
-      }else if(sentence>=97 && sentence<=122 ) {
-        /*para letras en minúsculas, usamos fromChartcode para convertir el codigo ASCII en letra */
-        complete=complete +String.fromCharCode((sentence-97+position)%26+97);
-
-      }else if(sentence== 32){
-       /*opción de insertar un espacio */
+      if(sentence>=65 && sentence<=90) {      
+        complete=complete + String.fromCharCode((sentence - 65 + position)%26 + 65);
+        //para letras en mayúsculas
+      } else if(sentence>=97 && sentence<=122) {
+        complete=complete + String.fromCharCode((sentence - 97 + position)%26 + 97);
+        //para letras en minúsculas
+      } else if(sentence== 32) {
         complete += ' ';
-      }else {
+        //opción de insertar un espacio 
+      } else {
         complete=alert('Ingrese solo letras');
-          /*previniendo errores*/
+        //previniendo errores
       }
     }
+
     return complete;  
   },
     
@@ -34,17 +33,18 @@ window.cipher ={
       let positionD=parseInt(offset);
       let sentenceD=string.charCodeAt(i);
 
-      if( sentenceD>=65 && sentenceD<=90){      
-        completeD=completeD+String.fromCharCode(((sentenceD%26+64)-65-positionD)%26+65);
-
-      }else if(sentenceD>=97 && sentenceD<=122 ) {
-        completeD=completeD+String.fromCharCode(((sentenceD%26+64)-97-positionD)%26+97);
-
-      }else if(sentenceD== 32){
+      if(sentenceD>=65 && sentenceD<=90) {      
+        completeD=completeD+String.fromCharCode(((sentenceD-65)+(26-(positionD%26)))%26+65);  
+        //para letras en mayúsculas
+      } else if(sentenceD>=97 && sentenceD<=122) {
+        completeD=completeD+String.fromCharCode(((sentenceD-97)+(26-(positionD%26)))%26+97);
+        //para letras en minúsculas
+      } else if(sentenceD== 32) {
         completeD += ' ';
-
-      }else {
+        //opción de insertar un espacio 
+      } else {
         completeD=alert('Ingrese solo letras');
+        //previniendo errores
       }
     }
     return completeD

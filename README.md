@@ -42,13 +42,16 @@ Para poder resolver el reto se siguieron estos pasos:
 1. Se inserta una letra o palabra (**word**). 
 2. Se inserta un código numérico (**offset**).
 3. Se decide si cifrar o decifrar el mensaje.
+
    3.1. Si se elige la opción (**cifrar**),se ejecuta la fórmula:
    (**String.fromCharCode((word - 65 + offset)%26 + 65)**) para mayúsculas,
    o (**String.fromCharCode((word - 97 + offset)%26 + 97)**) para minúsculas.
+
    3.2. Si se elige la opción (**decifrar**), se ejecuta la fórmula:
    (**String.fromCharCode(((wordD-65)+(26-(offset%26)))%26+65)**) para mayúsculas,
    o (**String.fromCharCode(((wordD-97)+(26-(offset%26)))%26+97)**) para minúsculas.
-4. Si el ususario ingresa algo diferente a lo solicitado en los cuadros de texto,
+
+4. Si el ususario ingresa algo diferente a lo solicitado en el cuadros de texto,
    aparecerá un mensaje de alerta para que lo corrija.
 5. Se recibirá el mensaje cifrado o decifrado según lo haya solicitado.
 

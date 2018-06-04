@@ -1,10 +1,12 @@
-import { encode } from "punycode";
+let textEncode = document.getElementById('textArea1');
+let codeKey = document.getElementById('textArea2');
 
-const textEncode= document.getElementById('text-encode');
-const buttonCipher =  document.getElementById('button-cipher');
-button-cipher.addEventListener('click', cipher.encode()=>{});
+document.getElementById('buttonCipher').addEventListener('click', () => {
+    document.getElementById('textArea3').value = cipher.encode(codeKey.value,textEncode.value);
+});
+
+document.getElementById('buttonDecipher').addEventListener('click', () => {   
+    document.getElementById('textArea3').value = cipher.decode(codeKey.value, textEncode.value);
+}); 
 
 
-const textDecode= document.getElementById('text-decode');
-const buttonDecipher = document.getElementById('button-decipher');
-button-decipher.addEventListener('Click', cipher.decode()=>{});

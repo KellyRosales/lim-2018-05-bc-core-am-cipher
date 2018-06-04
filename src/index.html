@@ -3,47 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content= "EncryptedChat es una página que sirve para mantener una conversación secreta en grupo sin que algun usuario exterior ingrese">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EncryptedChat</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <header>  
-          <h1>
-          EncryptedChat
-          </h1>
-      </header>
-      <section id="sectionA" >
-        <div id="sectionAa">
-          <label id="timer" >Temporizador</label> 
-          <select name="select-time">
-            <option value="value1">10 segundos</option>
-            <option value="value2">20 segundos</option>
-            <option value="value3">30 segundos</option>
-          </select>
-        </div>
-        <div id="sectionAb">
-          <label id="Number">Código de cifrado</label>
-          <textarea id="text-encode"name="message0" placeholder="Inserte un número" ></textarea>
+    <header> 
+      <h1>
+        EncryptedChat
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <label id="name1">Inserte el texto que desea cifrar o decifrar</label>
         </div>
         <div>
-          <input id="button-cipher" type="button" value="Cifrar">
+          <input id="textArea1" type="text">  
+        </div>
+      </section> 
+      <section>  
+        <div>
+          <label id="name2">Inserte el número<br> de su código </label>
         </div>
         <div>
-            <input id="button-decipher"type="button" value="Decifrar">
+          <input id="textArea2" type="text">
+        </div>
+        <div>
+          <input id="buttonCipher" type="button" value="Cifrar">
+        </div>
+        <div>
+          <input id="buttonDecipher" type="button" value="Decifrar">
         </div>
       </section>
-      <section id="sectionB">
-        <label>Inserte mensaje</label>
-        <textarea id="text-decode" name="message1" placeholder="Escriba aquí el mensaje que quiere cifrar" ></textarea>
+      <section>
+        <div>
+          <label id="name3">Texto Cifrado o decifrado</label>
+        </div>
+        <div>
+          <textarea id="textArea3" name="message2" placeholder="Aquí recibirá su texto cifrado o decifrado"></textarea>
+        </div>
       </section>
-      <section id="sectionC">
-          <label>Mensaje Procesado</label>
-          <textarea id="textarea3" name="message2" placeholder="Aquí recibirá su texto cifrado"></textarea>
-      </section>
-       <footer> 
-        <p><strong>Hecho con amor en < Laboratoria></strong>   </p>
-       </footer>
-       <script src="cipher.js"></script>
+      </main>
+      <footer> 
+        <p>Hecho con amor en Laboratoria  </p>
+      </footer>
+      <script src="cipher.js"></script>
       <script src="index.js"></script>
     </body>
   </html>

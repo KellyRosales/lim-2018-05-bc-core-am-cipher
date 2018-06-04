@@ -3,7 +3,7 @@ body {
     color: white;
     text-align: center;
  }
- 
+
  header{
     position: relative;
     background:rgba(155, 6, 6, 0.945);
@@ -37,7 +37,7 @@ body {
  #textArea2{
     position:relative;
     font-size: 100%;
-    width: 40%;
+    width: 10%;
     height:50px;
     top:100px;  
  }
